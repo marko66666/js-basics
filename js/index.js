@@ -1,6 +1,2 @@
-function handleButtonClicked() {
-  alert("Button is clicked");
-}
-
 const button = document.getElementById("my-button");
-button.addEventListener("click", handleButtonClicked);
+button.addEventListener("click", () => alert("Button is clicked"));
